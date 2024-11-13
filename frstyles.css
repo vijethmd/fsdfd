@@ -1,0 +1,59 @@
+.button {
+    background-color: yellow;
+    color:black;
+    padding:20px;
+    border:none;
+    border-radius: 10px;
+    width:15%;
+    margin:10px;
+}
+.buy{
+    background-color:green;
+    margin-left: 0%;
+    font-size: 1rem;
+}
+.hi .cart{
+    background-color: yellow;
+    margin-left: 0%;
+    font-size: 1rem;
+}
+html,body{
+    margin:10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
+body{
+    font-family: 'Helvetica','sans-serif';
+    background-image: url("./chbg.jpg");
+
+        background-repeat: no-repeat;     /* Prevents the image from repeating */
+        background-size: cover;           /* Ensures the image covers the entire screen */
+        background-position: center center; /* Centers the image in the viewport */
+        background-attachment: fixed;     /* Optional: keeps the background fixed while scrolling */
+
+}
+.pressed{
+    opacity: 0.5;
+}
+.about
+{
+    margin-top: 5%;
+    text-align: justify;
+    width: 55%;
+    clear: both;
+    font-size: large;
+}
+.image
+{
+    float: left;
+    margin-right: 5%;
+    margin-top: 0.6%;
+   
+}
+.head
+{
+    margin-top: 4%
+}

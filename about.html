@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 40%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color:blueviolet;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.team
+{
+    display:grid;
+}
+    </style>
+</head>
+<body>
+    <div class = "team" >
+    <div class="about-section" style = "height: 100vh;">
+        <h1>About Us Page</h1>
+        <p>Welcome to Webshop – your one-stop destination for everything you love, from cutting-edge technology to lifestyle essentials! Our store brings together a diverse array of quality items, ensuring you find exactly what you need to enhance your lifestyle and express yourself.</p>
+        <p>At Webshop, we believe that everyone deserves access to the finest products in one seamless shopping experience. Whether you're looking for the latest iPads to fuel your creativity, trendy shirts to upgrade your wardrobe, stylish watches to make a statement, or delicious treats like chocolates and chips to satisfy your cravings, we've got it all under one roof.</p>
+        <p>Our collection includes:<br/>
+            <ul>
+                <li>Electronics: From high-tech gadgets like phones, iPads, and earphones to make life simpler and more connected.</li>
+                <li>Fashion: Quality apparel, shoes, and accessories that combine comfort with the latest trends.</li>
+                <li>Snacks & Treats: Savor your favorite indulgences with our range of chocolates, chips, and more.</li>
+            </ul></p>
+        <p><p>We’re committed to offering a delightful shopping experience with quality products, excellent customer service, and affordable prices. Join our community and discover why Webshop is more than just a store – it's a lifestyle.</p></p>
+        <p>Let us be part of your journey, making every moment better, tastier, and more stylish. Happy shopping at Webshop!</p>
+        
+      </div>
+      
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div style = "margin-left: 11%;" class="column">
+          <div class="card">
+            <img src="cat1gif.gif" height = "220px" alt="Vijeth" style="width:100%">
+            <div class="container">
+              <h2>Vijeth M D</h2>
+              <p class="title"></p>
+              <p>CG section</p>
+              <p>vijethmd.cs23@bmsce.ac.in</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="./cat2gif.gif" height = "220px" alt="Thilak" style="width:100%">
+            <div class="container">
+              <h2>Thilak K</h2>
+              <p class="title"></p>
+              <p>CG section</p>
+              <p>thilakk.cs23@bmsce.ac.in</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+
+        <div style = "margin-left: 11%" class="column">
+          <div  class="card">
+            <img src="./cat3gif.gif" height = "220px" alt="Thejas" style="width:100%">
+            <div class="container">
+              <h2>Thejas P</h2>
+              <p class="title"></p>
+              <p>CG section</p>
+              <p>thejasp.cs23@bmsce.ac.in</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+    
+      <div class="column">
+        <div class="card">
+          <img src="./cat4gif.gif" height = "220px" alt="Thanmay" style="width:100%">
+          <div class="container">
+            <h2>Thanmay K H</h2>
+            <p class="title"></p>
+            <p>CG section</p>
+            <p>thanmaykh@bmsce.ac.in</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+</body>
+</html>
+
